@@ -1,68 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Davigox</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="burger-btn">
-                <i></i>
-                <i></i>
-                <i></i>
-            </div>
-            <ul class="menu">
-                <li class="menu__item">
-                    <a href="portfolio.html">Portafolio</a>
-                    <img src="./assets/icons/menu-arrow.svg" alt="Menu-arrow">
-                </li>
-                <li class="menu__item">
-                    <a href="about.html">About</a>
-                    <img src="./assets/icons/menu-arrow.svg" alt="Menu-arrow">
-                </li>
-                <li class="menu__item">
-                    <a href="mailto:robodavcuqupe@gmail.com" target="_blank">Contacto</a>
-                    <img src="./assets/icons/menu-arrow.svg" alt="Menu-arrow">
-                </li>
-            </ul>
-            <ul class="social-menu">
-                <li class="social-menu__item">
-                    <a href="https://twitter.com/davigox1" target="_blank">Twitter</a>
-                    <img src="./assets/icons/twitter-logo.svg" alt="Twitter Logo">
-                </li>
-                <li class="social-menu__item">
-                    <a href="https://github.com/davigox" target="_blank">Github</a>
-                    <img src="./assets/icons/github-logo.svg" alt="Github Logo">
-                </li>
-                <li class="social-menu__item">
-                    <a href="https://www.linkedin.com/in/davigox/" target="_blank">Linkedin</a>
-                    <img src="./assets/icons/linkedin-logo.svg" alt="Linkedin Logo">
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Main Section -->
-    <main class="main-section">
-        <div class="container">
-            <div class="intro">
-                <img src="./assets/images/main-picture.png" alt="Davigox" class="intro__picture">
-                <h1 class="intro__title">Hola, Soy David Gonzalo Cusi Quispe</h1>
-                <h3 class="intro__description">Me gusta las tecnologías web.</h3>
-                <div class="intro__cta">
-                    <a href="portfolio.html">Observa los últimos proyectos que he trabajado <img src="./assets/icons/projects-arrow.svg" alt="Projects Arrow"></a>
+<body>
+    <div class="background"></div>
+    <div class="grid-container">
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="burger-btn">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="portfolio.html">Portafolio <img src="./assets/icons/menu-arrow.svg" alt="Menu-arrow"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html">About <img src="./assets/icons/menu-arrow.svg" alt="Menu-arrow"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="mailto:robodavcuqupe@gmail.com" target="_blank">Contacto <img src="./assets/icons/menu-arrow.svg" alt="Menu-arrow"></a>
+                        </li>
+                    </ul>
+                    <ul class="social-menu">
+                        <li class="social-menu__item">
+                            <a class="twitter" href="https://twitter.com/davigox1" target="_blank">Twitter <img src="./assets/icons/twitter-logo.svg" alt="Twitter Logo"></a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="github" href="https://github.com/davigox" target="_blank">Github <img src="./assets/icons/github-logo.svg" alt="Github Logo"></a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="linkedin" href="https://www.linkedin.com/in/davigox/" target="_blank">Linkedin <img src="./assets/icons/linkedin-logo.svg" alt="Linkedin Logo"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Section -->
+        <main class="main-section">
+            <div class="container">
+                <div class="hero">
+                    <img src="./assets/images/main-picture.png" alt="Davigox" class="hero__picture">
+                    <h1 class="hero__title">Hola, Soy David Gonzalo Cusi Quispe</h1>
+                    <h3 class="hero__description">Me gusta las tecnologías web.</h3>
+                    <div class="hero__cta">
+                        <a href="portfolio.html">Observa los últimos proyectos que he trabajado <img
+                                src="./assets/icons/projects-arrow.svg" alt="Projects Arrow"></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <!-- Follow Me Section -->
-    <section class="follow">
-        <h4 class="follow__text">Puedes seguirme en <a href="https://twitter.com/davigox1" target="_blank">Twitter</a> y <a href="https://github.com/davigox" target="_blank">Github</a>. También en mi <a href="https://www.linkedin.com/in/davigox/" target="_blank">Linkedin</a> y mi <a href="mailto:robodavcuqupe@gmail.com">Correo</a>.</h4>
-    </section>
+        <!-- Follow Me Section -->
+        <section class="follow">
+            <h4 class="follow__text">Puedes seguirme en <a href="https://twitter.com/davigox1"
+                    target="_blank">Twitter</a> y <a href="https://github.com/davigox" target="_blank">Github</a>.
+                También en mi <a href="https://www.linkedin.com/in/davigox/" target="_blank">Linkedin</a> y mi <a
+                    href="mailto:robodavcuqupe@gmail.com">Correo</a>.</h4>
+        </section>
+    </div>
 </body>
+
 </html>

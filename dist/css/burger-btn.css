@@ -33,6 +33,7 @@
 .burger-btn--active i:first-child{
     width: 100%;
     top: 20px;
+    left: 0;
     transform: rotateZ(-45deg);
 }
 .burger-btn--active i:nth-child(2){
@@ -42,7 +43,6 @@
 .burger-btn--active i:last-child{
     width: 100%;
     top: 20px;
-    bottom: 20px;
     left: 0;    
     box-shadow: 0 0 10px #0088f6, 0 0 4px #000000;
     transform: rotateZ(45deg);

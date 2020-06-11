@@ -1,0 +1,13 @@
+@media screen and (min-width: 600px) {
+    /* Main Section - Hero */
+    .hero {
+      font-size: 19px;
+    }
+    .hero__picture {
+        width: 200px;
+    }
+    /* Footer - Follow */
+    .footer {
+      font-size: 19px;
+    }
+}

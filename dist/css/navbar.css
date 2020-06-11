@@ -1,0 +1,61 @@
+.navbar {
+    height: 70px;
+    padding: 10px 25px;
+    z-index: 20;
+    overflow-x: hidden;
+}
+.menu-container {
+    display: none;
+    padding-right: 25px;
+    position: fixed;
+    right: 10px;
+    top: 70px;
+    bottom: 0;
+    overflow-y: auto;
+}
+.menu-container ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+}
+.menu-container a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.menu-container a img{
+    margin-left: 10px;
+}
+.menu{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.menu__item{
+    margin: 0 0 15px;
+}
+.menu a{
+    color: #FFFFFF;
+}
+
+.menu--active {
+    display: block;
+}
+
+.social-menu{
+    font-size: 1.12em;
+    font-weight: 600;
+}
+.social-menu__item{
+    margin: 0 0 15px;
+}
+.social-menu .twitter{
+    color: #1DA1F2;
+}
+.social-menu .github{
+    color: #FFFFFF;
+}
+.social-menu .linkedin{
+    color: #0077B5;
+}

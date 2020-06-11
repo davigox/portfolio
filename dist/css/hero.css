@@ -1,0 +1,29 @@
+.main-section {
+    padding: 0 20px;
+    align-self: center;
+}
+.hero{
+    text-align: center;
+}
+.hero__picture{
+    width: 150px;
+}
+.hero__title{
+    margin: 25px 0 10px;
+    font-size: 2.25em;
+    font-weight: 500;
+    line-height: 40px;
+}
+.hero__description{
+    margin: 0 0 30px;
+    font-size: 1.12em;
+}
+.hero__cta a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #0088f6;
+}
+.hero__cta img{
+    margin-left: 5px;
+    vertical-align: middle;
+}

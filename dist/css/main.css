@@ -1,3 +1,4 @@
+*{box-sizing:border-box}
 body{
     margin: 0;
     font-family: 'Saira', sans-serif;
@@ -16,6 +17,11 @@ body{
     z-index: -1;
     background: linear-gradient(to bottom, rgba(0,136, 246,0.7), transparent);
 }
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 70px 1fr auto;
+}
 .container {
     padding: 0 20px;
 }
@@ -25,7 +31,7 @@ body{
     grid-template-rows: 70px 1fr auto;
 }
 .navbar {
-    padding: 25px;
+    padding: 10px 25px;
 }
 .menu-container{
     display: none;
@@ -104,40 +110,39 @@ body{
 .burger-btn i{
     display: inline-block;
     height: 3px;
-    width: 50px;
+    width: 35px;
     position: absolute;
     background: #FFFFFF;
     box-shadow: 0 0 10px #0088f6;
     transition: all .5s;
 }
 .burger-btn i:first-child{
-    width: 37.5px;
-    top: 15px;
-    left: 6.25px;
+    top: 10px;
+    left: 5px;
 }
 .burger-btn i:nth-child(2){
-    width: 37.5px;
-    top: 23.5px;
-    left: 6.25px;
+    top: 20px;
+    left: 5px;
 }
 .burger-btn i:last-child{
-    width: 37.5px;
-    bottom: 15px;
-    left: 6.25px;
+    bottom: 10px;
+    left: 5px;
 }
 .burger-btn--active{
     position: fixed;
     right: 25px;
-    top: 25px;
-    z-index: 1;
+    top: 10px;
+    z-index: 10;
 }
 .burger-btn--active i{
     background: #0088f6;
 }
 .burger-btn--active i:first-child{
     width: 100%;
-    top: 22px;
+    top: 20px;
     left: auto;
+    right: auto;
+    bottom: 20px;
     transform: rotateZ(-45deg);
 }
 .burger-btn--active i:nth-child(2){
@@ -146,8 +151,10 @@ body{
 }
 .burger-btn--active i:last-child{
     width: 100%;
-    bottom: 22px;
+    top: 20px;
+    bottom: 20px;
     left: auto;
+    right: auto;
     z-index: 2;
     box-shadow: 0 0 10px #0088f6, 0 0 4px #000000;
     transform: rotateZ(45deg);
@@ -167,7 +174,7 @@ body{
     line-height: 40px;
 }
 .hero__description{
-    margin: 30px 0;
+    margin: 0 0 30px;
     font-size: 18px;
 }
 .hero__cta a{
@@ -181,7 +188,7 @@ body{
 }
 
 .follow{
-    margin: 80px 0 40px;
+    margin: 40px 0 20px;
     font-size: 14px;
     text-align: center;
     color: rgba(255,255,255,0.6);

@@ -13,7 +13,7 @@
     position: absolute;
     background: #FFFFFF;
     box-shadow: 0 0 10px #0088f6;
-    transition: all .5s;
+    transition: all 500ms;
 }
 .burger-btn i:first-child{
     top: 10px;

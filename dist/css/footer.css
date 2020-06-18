@@ -3,8 +3,10 @@
     text-align: center;
     color: rgba(255,255,255,0.6);
 }
-.footer__text{
+.footer__text p{
+    margin: 0;
     font-size: 0.9em;
+    transform: translateY(200%);
 }
 .footer a{
     font-weight: 600;

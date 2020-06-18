@@ -10,18 +10,29 @@
 }
 .hero__title{
     margin: 25px 0 10px;
+    
+}
+.hero__title h1{
     font-size: 2.25em;
     font-weight: 500;
     line-height: 40px;
+    transform: translateY(200%);
 }
 .hero__description{
     margin: 0 0 30px;
+}
+.hero__description p{
+    margin: 0;
     font-size: 1.12em;
+    transform: translateY(200%);
 }
 .hero__cta a{
+    display: inline-flex;
+    align-items: center;
     font-size: 0.9em;
     text-decoration: none;
     color: #0088f6;
+    transform: translateY(200%);
 }
 .hero__cta img{
     margin-left: 5px;

@@ -23,7 +23,7 @@
     display: block;
 }
 .overflow--hidden {
-    overflow-y: hidden;
+    overflow: hidden;
   }
   
 .borders {

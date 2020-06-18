@@ -1,13 +1,63 @@
+@media screen and (min-width: 400px) {
+  .project{
+    height: 295px;
+  }
+  .project .main-screen{
+    height: 270px;
+  }
+  .project__options{
+    height: 270px;
+  }
+  .project:hover .project__options{
+    transform: translateY(-270px);
+  }
+}
 @media screen and (min-width: 600px) {
-    /* Main Section - Hero */
-    .hero {
-      font-size: 19px;
-    }
-    .hero__picture {
-        width: 200px;
-    }
-    /* Footer - Follow */
-    .footer {
-      font-size: 19px;
-    }
+  .pinned-message{
+    font-size: 18px;
+  }
+  .header{
+    font-size: 18px;
+  }
+  .project{
+    font-size: 18px;
+  }
+  .footer{
+    font-size: 17px;
+  }
+  /* index */
+  .hero{
+    font-size: 18px;
+  }
+  .hero__picture{
+    width: 200px;
+  }
+  .index-footer{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .projects{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+  .footer .menu{
+    display: flex;
+  }
+  .footer .menu__item{
+    margin: 0 20px 0 0;
+  }
+  .footer .menu__item:last-child{
+    margin: 0;
+  }
+  .footer .social-menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer .social-menu__item{
+    margin: 0 0 0 20px;
+  }
+  .footer .social-menu__item:first-child{
+    margin: 0;
+  }
 }

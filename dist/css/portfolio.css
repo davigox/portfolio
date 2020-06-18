@@ -1,0 +1,13 @@
+.pinned-message{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.pinned-message p{
+    margin: 0;
+    font-size: 1em;
+}
+.projects {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}

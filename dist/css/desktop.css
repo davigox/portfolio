@@ -1,4 +1,15 @@
 @media screen and (min-width: 1024px) {
+    .index-grid{
+        max-width: 1900px;
+        margin: 0 auto;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        grid-template-columns: [margin1-start] 100px [margin1-end margin2-start] 100px [margin2-end main-start] minmax(auto, 850px) [main-end margin3-start] 100px [margin3-end margin4-start] 100px [margin4-end];
+        justify-content: center;
+    }
     .grid {
         max-width: 1900px;
         margin: 0 auto;
@@ -10,9 +21,18 @@
         grid-template-columns: [margin1-start] 100px [margin1-end margin2-start] 100px [margin2-end main-start] minmax(auto, 850px) [main-end margin3-start] 100px [margin3-end margin4-start] 100px [margin4-end];
         justify-content: center;
     }
+    .container{
+        padding: 0;
+    }
     .borders {
         display: block;
         grid-area: 1 / margin2-start / -1 / margin3-end;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: -10;
         border-left: 1px solid rgba(0, 136, 246, 0.2);
         border-right: 1px solid rgba(0, 136, 246, 0.2);
     }
@@ -27,7 +47,7 @@
         width: 60px;
         height: 60px;
         position: fixed;
-        top: 25px;
+        top: 40px;
     }
     .burger-btn i{
         width: 80%;
@@ -57,22 +77,62 @@
     }
     .menu-container{
         padding-right: 70px;
-        top: 95px;
+        top: 120px;
         right: unset;
+    }
+    .header{
+        grid-area: auto / margin2-start / auto / margin3-end;
+        border-bottom: 1px solid rgba(0, 136, 246, 0.2);
+        font-size: 20px;
+    }
+    .header__title{
+        margin: 40px 0;
+    }
+    .pinned{
+        grid-area: auto / main-start / auto / main-end;
+    }
+    .pinned-message{
+        margin: 30px 0 50px;
+        font-size: 20px;
     }
     /* Main Section - Hero */
     .main-section {
       padding: 25px 0 0;
       grid-area: 2 / margin2-start / 2 / margin3-end;
     }
+    
+    .footer {
+        grid-area: auto / main-start / auto / main-end;
+        font-size: 18px;
+    }
+    .footer img{
+        width: 12px;
+    }
+    .main-section{
+        grid-area: auto / main-start / auto / main-end;
+    }
+    .project__options{
+        font-size: 20px;
+    }
+    .project__options img{
+        width: 20px;
+    }
+    .project__options .options a:last-child img{
+        width: 15px;
+    }
+    /* Index */
+    .index-main-section{
+        padding: 25px 0 0;
+        grid-area: 2 / main-start / 3 / main-end;
+    }
     .hero {
-        font-size: 22px;
+        font-size: 20px;
     }
     .hero__picture {
         width: 250px;
     }
-    .footer {
-        grid-area: 3 / main-start / 3 / main-end;
-        font-size: 22px;
+    .index-footer {
+        grid-area: 3 / main-start / -1 / main-end;
+        font-size: 20px;
     }
 }

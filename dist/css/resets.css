@@ -1,0 +1,40 @@
+::selection{
+    background:rgba(196,53,232,0.4);
+    color:#FFF
+}
+*{
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent
+}
+body{
+    margin:0;
+    font-family:"Saira",sans-serif;
+    color:#FFF;
+    background:#000
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type:none
+}
+a{
+    text-decoration:none
+}
+button{
+    border:none;
+    outline:none
+}
+img{
+    -webkit-user-select:none;
+    user-select:none
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,66 +1,97 @@
-.navbar {
-    height: 70px;
-    padding: 10px 25px;
-    z-index: 20;
-    overflow-x: hidden;
-    user-select: none;
+.navbar{
+    display:flex;
+    height:70px;
+    padding:10px 25px;
+    align-items:center;
+    justify-content:space-between;
+    overflow-x:hidden;
+    -webkit-user-select:none;
+    user-select:none
 }
-.menu-container {
-    display: none;
-    padding-right: 25px;
-    text-align: right;
-    position: fixed;
-    right: 10px;
-    top: 70px;
-    bottom: 0;
-    overflow-y: auto;
+.navbar__btn{
+    order:3
 }
-.menu-container ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+.navbar__menu{
+    display:none
+}
+.logo__text{
+    font-size:1.125em;
+    font-weight:600;
+    color:#FFF
+}
+.menu-container{
+    padding-right:25px;
+    position:fixed;
+    right:10px;
+    top:70px;
+    bottom:0;
+    z-index:30;
+    text-align:right;
+    overflow-y:auto
 }
 .menu-container a{
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-end;
-    text-decoration: none;
-    transform: translateY(200%);
-    will-change: transform;
+    display:inline-flex;
+    align-items:center;
+    justify-content:flex-end;
+    text-decoration:none;
+    transform:translateY(200%);
+    will-change:transform
 }
-.menu-container a img{
-    margin-left: 10px;
+.menu-container img{
+    transition:all 200ms
 }
 .menu{
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size:1.5em;
+    font-weight:600
 }
-.menu__item{
-    margin: 0 0 15px;
-    overflow: hidden;
+.menu__item,.social-menu__item{
+    margin:0 0 15px;
+    overflow:hidden
 }
 .menu a{
-    color: #FFFFFF;
+    color:#FFF
 }
-
-.menu--active {
-    display: block;
+.menu a img{
+    margin-left:10px;
+    opacity:0.4
 }
-
+.menu a:hover img{
+    opacity:1
+}
 .social-menu{
-    font-size: 1.12em;
-    font-weight: 600;
-}
-.social-menu__item{
-    margin: 0 0 15px;
-    overflow: hidden;
+    font-size:1.125em;
+    font-weight:600
 }
 .social-menu .twitter{
-    color: #1DA1F2;
+    color:#1DA1F2
 }
 .social-menu .github{
-    color: #FFFFFF;
+    color:#FFF
 }
 .social-menu .linkedin{
-    color: #0077B5;
+    color:#0077B5
+}
+.social-menu__icon,.social-menu span{
+    overflow:hidden
+}
+.social-menu__icon{
+    display:grid;
+    width:15px;
+    height:15px;
+    margin-left:10px;
+    grid-template-columns:repeat(2,1fr);
+    column-gap:15px
+}
+.social-menu__icon img{
+    transform:translateX(-30px)
+}
+.social-menu a:hover img{
+    transform:translateX(0)
+}
+.social-menu a:hover{
+    transition:color 200ms;
+    color:#FFF
+}
+.menu--active{
+    display:block
 }

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Irpa</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./dist/css/utilities.css">
+    <link rel="stylesheet" href="./dist/css/resets.css">
+    <link rel="stylesheet" href="./dist/css/animations.css">
+    <link rel="stylesheet" href="./dist/css/burger-btn.css">
+    <link rel="stylesheet" href="./dist/css/project.css">
+    <link rel="stylesheet" href="./dist/css/article.css">
+    <link rel="stylesheet" href="./dist/css/hero.css">
+    <link rel="stylesheet" href="./dist/css/grid.css">
+    <link rel="stylesheet" href="./dist/css/navbar.css">
+    <link rel="stylesheet" href="./dist/css/header.css">
+    <link rel="stylesheet" href="./dist/css/footer.css">
+    <link rel="stylesheet" href="./dist/css/desktop.css">
+    <link rel="stylesheet" href="./dist/css/tablet.css">
+</head>
+
+<body id="body">
+    <div class="background"></div>
+
+    <div class="grid">
+        <div class="blur" id="blur"></div>
+        <div class="grid-boundaries"></div>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="portfolio.html" class="arrow fadeIn" id="arrow"></a>
+            </div>
+            <div class="navbar__btn">
+                <div class="burger-btn fadeIn" id="burger-btn">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+            </div>
+            <div class="navbar__menu" id="menu">
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="portfolio.html" class="slideUp duration-3">Portafolio <img
+                                    src="assets/icons/menu-arrow.svg" alt="Menu Arrow"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html" class="slideUp delay-1 duration-3">Acerca de mi <img
+                                    src="assets/icons/menu-arrow.svg" alt="Menu Arrow"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="mailto:robodavcuqupe@gmail.com" target="_blank"
+                                class="slideUp delay-2 duration-3">Contacto <img src="assets/icons/menu-arrow.svg"
+                                    alt="Menu Arrow"></a>
+                        </li>
+                    </ul>
+                    <ul class="social-menu">
+                        <li class="social-menu__item">
+                            <a class="twitter slideUp delay-3 duration-3" href="https://twitter.com/davigox1"
+                                target="_blank">
+                                <span>Twitter</span>
+                                <div class="social-menu__icon">
+                                    <img src="assets/icons/link.svg" alt="Link">
+                                    <img src="assets/icons/twitter-logo.svg" alt="Twitter Logo">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="github slideUp delay-4 duration-3" href="https://github.com/davigox"
+                                target="_blank">
+                                <span>GitHub</span>
+                                <div class="social-menu__icon">
+                                    <img src="assets/icons/link.svg" alt="Link">
+                                    <img src="assets/icons/github-logo.svg" alt="GitHub Logo">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="linkedin slideUp delay-5 duration-3" href="https://www.linkedin.com/in/davigox/"
+                                target="_blank">
+                                <span>LinkedIn</span>
+                                <div class="social-menu__icon">
+                                    <img src="assets/icons/link.svg" alt="Link">
+                                    <img src="assets/icons/linkedin-logo.svg" alt="LinkedIn Logo">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header__title">
+                <h1 class="slideUp">web-irpa.web.app</h1>
+            </div>
+        </header>
+
+        <div class="container pinned">
+            <div class="pinned-message">
+                <p class="pinned-message__text slideUp delay-2">📌 Proyecto de pasantía para la Fundación Irpañani.</p>
+            </div>
+        </div>
+
+        <!-- Main Section -->
+        <main class="main-section">
+            <div class="container">
+                <div class="project-options fadeIn delay-6">
+                    <a href="https://github.com/davigox/web-irpa" target="_blank" class="button">Código <img
+                            src="assets/icons/github-logo.svg" alt="GitHub Logo"></a>
+                    <a href="https://web-irpa.web.app/" target="_blank" class="button">Vista previa en vivo <img
+                            src="assets/icons/menu-arrow.svg" alt="Preview arrow"></a>
+                </div>
+                <section class="projects slideshow fadeIn delay-6">
+                    <div class="project slideshow__screen">
+                        <div class="screen-bar">
+                            <span class="screen-bar__options">
+                                <svg width="10" height="10">
+                                    <circle cx="5" cy="5" r="5" fill="#FF5F57"></circle>
+                                </svg>
+                                <svg width="10" height="10">
+                                    <circle cx="5" cy="5" r="5" fill="#FFBD2E"></circle>
+                                </svg>
+                                <svg width="10" height="10">
+                                    <circle cx="5" cy="5" r="5" fill="#28CA41"></circle>
+                                </svg>
+                            </span>
+                            <h4 class="screen-bar__title">web-irpa.web.app</h4>
+                        </div>
+                        <div class="main-screen">
+                            <img src="assets/images/web-irpa-1.png" alt="web-irpa-1"
+                                class="slideshow__image fadeIn duration-2">
+                            <img src="assets/images/web-irpa-2.png" alt="web-irpa-2"
+                                class="slideshow__image fadeIn duration-2">
+                            <img src="assets/images/web-irpa-3.png" alt="web-irpa-3"
+                                class="slideshow__image fadeIn duration-2">
+                            <button class="slideshow__control prev" id="prev">
+                                <i class="arrow"></i>
+                            </button>
+                            <button class="slideshow__control next" id="next">
+                                <i class="arrow"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bullets">
+                        <span class="bullet active"></span>
+                        <span class="bullet"></span>
+                        <span class="bullet"></span>
+                    </div>
+                </section>
+                <section class="project-info fadeIn delay-6">
+                    <article class="article">
+                        <h2 class="article__title">Acerca del proyecto</h2>
+                        <p class="article__text">Este proyecto lo hice para la Fundación Irpañani. El objetivo principal del sitio web es de hacer ppublicar noticias o eventos de la Fundación Irpañani.</p>
+                        <p class="article__text">El proyecto aun está en desarrollo. Agregaré más características al sitio web posteriormente.</p>
+                    </article>
+                    <article class="article">
+                        <h2 class="article__title">Tecnologías</h2>
+                        <ul class="list">
+                            <li class="list__item">
+                                <img src="assets/icons/html5-logo.svg" alt="HTML5">
+                                <span>HTML</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/icons/css-logo.svg" alt="CSS3">
+                                <span>CSS</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/icons/js-logo.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/icons/git-logo.svg" alt="Git">
+                                <span>Git</span>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </div>
+        </main>
+
+        <!-- Follow Me Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__options">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="portfolio.html" class="slideUp delay-6">Portafolio <img
+                                    src="assets/icons/menu-arrow.svg" alt="Menu Arrow"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html" class="slideUp delay-6">Acerca de mi <img src="assets/icons/menu-arrow.svg"
+                                    alt="Menu Arrow"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="mailto:robodavcuqupe@gmail.com" target="_blank" class="slideUp delay-6">Contacto <img
+                                    src="assets/icons/menu-arrow.svg" alt="Menu Arrow"></a>
+                        </li>
+                    </ul>
+                    <ul class="social-menu">
+                        <li class="social-menu__item">
+                            <a class="twitter slideUp delay-6" href="https://twitter.com/davigox1" target="_blank">
+                                <span>Twitter</span>
+                                <div class="social-menu__icon">
+                                    <img src="assets/icons/link.svg" alt="Link">
+                                    <img src="assets/icons/twitter-logo.svg" alt="Twitter Logo">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="github slideUp delay-6" href="https://github.com/davigox" target="_blank">
+                                <span>GitHub</span>
+                                <div class="social-menu__icon">
+                                    <img src="assets/icons/link.svg" alt="Link">
+                                    <img src="assets/icons/github-logo.svg" alt="GitHub Logo">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="social-menu__item">
+                            <a class="linkedin slideUp delay-6" href="https://www.linkedin.com/in/davigox/"
+                                target="_blank">
+                                <span>LinkedIn</span>
+                                <div class="social-menu__icon">
+                                    <img src="assets/icons/link.svg" alt="Link">
+                                    <img src="assets/icons/linkedin-logo.svg" alt="LinkedIn Logo">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__copyright">
+                    <span class="made-with slideUp delay-6">Hecho cpm <img src="assets/icons/heart.svg"
+                            alt="heart"></span>
+                    <span class="copyright slideUp delay-6">&copy; 2020 David Gonzalo Cusi Quispe.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="dist/js/main.js"></script>
+    <script src="dist/js/slideShow.js"></script>
+</body>
+</html>

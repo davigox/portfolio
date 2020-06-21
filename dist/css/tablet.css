@@ -1,63 +1,80 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width:400px){
   .project{
-    height: 295px;
+    height:295px
   }
-  .project .main-screen{
-    height: 270px;
-  }
-  .project__options{
-    height: 270px;
+  .project .main-screen, .project__options{
+    height:270px
   }
   .project:hover .project__options{
-    transform: translateY(-270px);
+    transform:translateY(-270px)
   }
 }
-@media screen and (min-width: 600px) {
-  .pinned-message{
-    font-size: 18px;
+@media screen and (min-width:600px){
+  .project-options{
+    grid-template-columns:repeat(2,250px)
   }
-  .header{
-    font-size: 18px;
+  .slideshow__screen{
+    height:395px;max-width:unset
   }
-  .project{
-    font-size: 18px;
+  .slideshow__screen .main-screen{
+    height:380px
+  }
+}
+@media screen and (min-width:768px){
+  .about-me,.header,.hero,.index-footer,.pinned-message,.project,.project-info,.project-options{
+    font-size:18px
   }
   .footer{
-    font-size: 17px;
-  }
-  /* index */
-  .hero{
-    font-size: 18px;
+    font-size:17px
   }
   .hero__picture{
-    width: 200px;
+    width:200px
   }
-  .index-footer{
-    font-size: 18px;
+  .slideshow__screen{
+    height:495px
+  }
+  .slideshow__screen .main-screen{
+    height:470px
+  }
+  .slideshow__screen .arrow{
+    width:25px
   }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width:850px){
   .projects{
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    grid-template-columns:repeat(2,1fr);
+    justify-content:space-between;
   }
   .footer .menu{
-    display: flex;
+    display:flex
   }
   .footer .menu__item{
-    margin: 0 20px 0 0;
+    margin:0 20px 0 0
   }
   .footer .menu__item:last-child{
-    margin: 0;
+    margin:0
   }
   .footer .social-menu{
-    display: flex;
-    justify-content: flex-end;
+    display:flex;
+    justify-content:flex-end
   }
   .footer .social-menu__item{
-    margin: 0 0 0 20px;
+    margin:0 0 0 20px
   }
   .footer .social-menu__item:first-child{
-    margin: 0;
+    margin:0
+  }
+  .slideshow{
+    grid-template-columns:unset;
+    justify-content:unset
+  }
+  .slideshow__screen{
+    height:560px
+  }
+  .slideshow__screen .main-screen{
+    height:545px
+  }
+  .slideshow__control{
+    padding:0 20px
   }
 }

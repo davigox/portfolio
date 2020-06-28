@@ -8,8 +8,8 @@
 .grid-boundaries{
     display:none;
     grid-column:margin2-start/margin3-end;
-    border-left:1px solid rgba(196,53,232,0.2);
-    border-right:1px solid rgba(196,53,232,0.2);
+    border-left:1px solid rgba(0, 136, 246, 0.2);
+    border-right:1px solid rgba(0, 136, 246, 0.2);
     position:absolute;
     top:0;
     right:0;

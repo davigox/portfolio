@@ -29,8 +29,8 @@
     display:inline-block;
     text-decoration:none;
     transform:translateY(200%);
-    font-size:0.9em;
-    color:#C435E8
+    font-size:0.7em;
+    color:#0088f6
 }
 .hero__cta a img{
     margin-left:5px;
@@ -83,7 +83,7 @@
 .about-header__title h3{
     margin:0;
     line-height:1.2em;
-    text-shadow:0 0 2px #C435E8;
+    text-shadow:0 0 2px #0088f6;
     transform:translateY(200%);
     font-size:1.5em;
     font-weight:500
@@ -156,8 +156,8 @@
     background:#1a1a1a
 }
 .button:last-child{
-    background:#74108d;
-    border-color:#4f0b60
+    background:#007be0;
+    border-color:#004a86
 }
 .button img{
     margin-left:5px
